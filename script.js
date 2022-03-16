@@ -1,6 +1,6 @@
-var listaFilmes = ["Yesterday", "A chegada", "Escola de Rock"]
-listaFilmes.push("Harry Potter 2")
 
-for (var indice = 0; indice < 4; indice = indice +1 ){
-    document.write("<p>" + listaFilmes[indice] + "</p>");
+var listaMangas = ["https://images-na.ssl-images-amazon.com/images/I/91NxYvUNf6L.jpg","https://images-na.ssl-images-amazon.com/images/I/912xRMMra4L.jpg","https://images-na.ssl-images-amazon.com/images/I/51YO61qiBKL._SX327_BO1,204,203,200_.jpg"]
+
+for (var i = 0; i < listaMangas.length; i++) {
+    document.write ("<img src=" + listaMangas[i] + ">")
 }
