@@ -7,7 +7,11 @@ listaFilmes.push("Harry Potter 2")
 
 
 //experimentar o h1, h2 e strong
-document.write("<p>" + listaFilmes[0] + "</p>");
-document.write("<p>" + listaFilmes[1] + "</p>");
-document.write("<p>" + listaFilmes[2] + "</p>");
-document.write("<p>" + listaFilmes[3] + "</p>");
+// document.write("<p>" + listaFilmes[0] + "</p>");
+// document.write("<p>" + listaFilmes[1] + "</p>");
+// document.write("<p>" + listaFilmes[2] + "</p>");
+// document.write("<p>" + listaFilmes[3] + "</p>");
+
+for (var indice = 0; indice < 4; indice = indice +1 ){
+    document.write("<p>" + listaFilmes[indice] + "</p>");
+}
